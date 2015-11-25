@@ -11,7 +11,7 @@ document itself, and this document outlines those cases.
 
 ## 1. Deprecation and Replacement
 
-If a PSR is found to require substantive updates or errata is no longer able clarify confusion, 
+If a PSR is found to require substantive updates or errata is no longer able to clarify confusion, 
 then the PSR must be replaced, following the workflow set out in [workflow bylaw].
 
 The original PSR may at some point in time be deprecated, and the new PSR becomes the recommended 
@@ -19,7 +19,7 @@ document. Deprecation and recommendation changes must be made with a vote accord
 of the [voting protocol], with a subject like "[VOTE] Deprecate PSR-X", at which point a 
 superseding PSR should be specified as a recommendation. 
 
-Once a vote has passed to deprecate a PSR and supersede it with another PSR, the deprecated PSR must
+Once a vote to deprecate a PSR and supersede it with another PSR has passed, the deprecated PSR must
 be marked as such in the original document and a link should be placed in the body.
 
 For example, the following Markdown be placed at the very top of the relevant standard file in the 
@@ -27,7 +27,7 @@ official PHP-FIG GitHub repo `fig-standards`.
 
 > **Deprecated** - As of 2014-12-30 PSR-0 has been marked as deprecated. [PSR-4] is now recommended 
 as an alternative.
-> [PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
+> [PSR-4]: http://php-fig.org/psr/psr-4
 
 
 ## 2. Dependencies
@@ -83,5 +83,5 @@ Examples:
 2. Somebody spelled something wrong and nobody spotted it for a year.
 3. Problems with GitHub Markdown
 
-[workflow bylaw]: https://github.com/philsturgeon/fig-standards/blob/master/bylaws/004-psr-workflow.md
-[voting protocol]: https://github.com/philsturgeon/fig-standards/blob/master/bylaws/001-voting-protocol.md
+[workflow bylaw]: https://github.com/php-fig/fig-standards/blob/master/bylaws/004-psr-workflow.md
+[voting protocol]: https://github.com/php-fig/fig-standards/blob/master/bylaws/001-voting-protocol.md

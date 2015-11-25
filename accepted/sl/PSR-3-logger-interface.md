@@ -10,9 +10,9 @@ namene, vendar BI MORALI ostati kompatibilni s tem dokumentom. To zagotavlja,
 da uporabe tretje-osebnih knjižnic aplikacije lahko pišejo v
 centralen dnevnik aplikacije.
 
-Ključne besede "MORA", "NE SME", "ZAHTEVANO", "SE", "SE NE", "BI",
-"NE BI", "PRIPOROČLJIVO", "LAHKO" in "OPCIJSKO" se v tem dokumentu
-razlaga kot je opisano v [RFC 2199][].
+Ključne besede "MORA", "NE SME", "ZAHTEVA", "PRIPOROČA", "LAHKO" in "NEOBVEZNO"
+v tem dokumentu se tolmačijo, kot je navedeno v
+[RFC 2119][].
 
 Besedo `implementator` se v tem dokumentu razlaga kot nekoga, ki
 impementira `LoggerInterface` v knjižnico, ki se tiče dnevnika ali ogrodja.
@@ -113,7 +113,7 @@ Uporabniki dnevnikov so navedeni kot `uporabnik`.
 
 - Podbno z uporabo `Psr\Log\LoggerTrait` od vas samo zahteva
   implementacijo generične `log` metode. Bodite pozorni, da odkar lastnosti - traits ne morejo implementirati
-  vmesnikov, morate v tem primeru še vedno narediti `implement LoggerInterface`.
+  vmesnikov, morate v tem primeru še vedno narediti implementirati `LoggerInterface`.
 
 - `Psr\Log\NullLogger` je ponujen skupaj z vmesnikom. LAHKO
   ga uporabljajo uporabniki vmesnika, da podajo fall-back "črno luknjo"

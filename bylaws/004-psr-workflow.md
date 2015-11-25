@@ -38,10 +38,10 @@ has been put in place.
 > decisions alone.
 
 **Coordinator:** One of the two required Sponsors is the Coordinator, and this must be decided between 
-the Sponsors early on. The Coordinator is in charge of the voting process. He notes the starting and 
-ending dates, the number of voting members at the start of the vote, and the quorum count needed. He 
-sends out reminders by whatever means he feels appropriate to drive the vote. At the end of the voting 
-period, he tallies the votes, notes if quorum was established, and whether or not the application was 
+the Sponsors early on. The Coordinator is in charge of the voting process. They note the starting and 
+ending dates, the number of voting members at the start of the vote, and the quorum count needed. They 
+send out reminders by whatever means they feel appropriate to drive the vote. At the end of the voting 
+period, they tally the votes, note if quorum was established, and whether or not the application was 
 accepted.
 
 > **Note:** Copied from [Paul M. Jones' mail](https://groups.google.com/d/msg/php-fig/I0urcaIsEpk/uqQMb4bqlGwJ)
@@ -88,9 +88,10 @@ the proposal. The Coordinator must announce the vote on the Mailing List in a th
 
 If the vote passes, the proposal officially enters Draft stage. The proposal receives a PSR number
 incremented from the highest numbered PSR which has passed the Entrance Vote, regardless of the status of 
-that PSR. A list of PSRs will be maintained in the [Index of PHP Standard Recommendations][wikiindex] wiki 
-page of the [official PHP-FIG "fig-standards" repo][repo], where the PSR entry is to be maintained by the 
-Coordinator.
+that PSR. A list of PSRs will be maintained in `index.md` file of the `fig-standards` repo. This
+will be included on the PHP-FIG website, on a page called 
+[Index of PHP Standard Recommendations][psrindex], where the PSR entry is to be maintained by
+the Coordinator.
 
 The working group may continue to work on the proposal during the complete voting period.
 
@@ -366,5 +367,5 @@ This is an example template that can be used to build a meta document.
     but it cannot create new rules.
 
 [repo]: https://github.com/php-fig/fig-standards/tree/master
-[wikiindex]: https://github.com/php-fig/fig-standards/wiki/Index-of-PHP-Standard-Recommendations
+[psrindex]: http://php-fig.org/psr/
 [voting]: https://github.com/php-fig/fig-standards/blob/master/bylaws/001-voting-protocol.md
